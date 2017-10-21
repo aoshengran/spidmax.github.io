@@ -1,5 +1,73 @@
 @charset "utf-8";
 
+// Only use during theme development
+* {
+  border: solid 1px red;
+}
+
+/*
+  Aosheng specific customizations
+*/
+.top {
+  height: 150px;
+}
+
+.postPreview {
+  height: 285px;
+  margin-bottom: 15px;
+  padding-top: 45px;
+  padding-left: 45px;
+}
+
+
+.sideBar {
+  height: 600px;
+  position: fixed;
+  top: 150px;
+  right: 0;
+}
+
+.fixedName {
+  width: 150px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  transform: rotate(90deg);
+  transform-origin: right top 0;
+  float: right;
+}
+
+.fixedBetaText {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.fixedLogoImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+}
+
+.fixedLinks {
+
+  position: absolute;
+  left: 0;
+  top: 300px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+}
 // Define defaults for each variable.
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -43,6 +111,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
+  "bootstrap",
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"

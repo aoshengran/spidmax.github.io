@@ -5,15 +5,39 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="container-fluid">
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="row top"></div>
+
+      <!-- fixed sidebar -->
+      <div class="sideBar">
+          <p class="fixedName">
+              Aosheng Ran
+            </p>
+            <div class="fixedLinks">
+              <ul>
+                  <li>
+                      <a href="#">Works</a>
+                  </li>
+                  <li>
+                      <a href="#">Articles</a>
+                  </li>
+                  <li>
+                      <a href="#">Thoughts</a>
+                  </li>
+              </ul>
+            </div>
+            <p class="fixedBetaText">
+              Beta
+            </p>
+            <img class="fixedLogoImage" src="{{ "/assets/images/logo.png" }}">
       </div>
-    </main>
 
-    {% include footer.html %}
+      <div class="row content">
+        <div class="col-md-6 col-md-offset-2">
+          {{ content }}
+        </div>
+      </div>
 
   </body>
 
