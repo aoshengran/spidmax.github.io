@@ -1,30 +1,87 @@
 @charset "utf-8";
 
-// Only use during theme development
-* {
-  border: solid 1px red;
-}
+// // Only use during theme development
+// * {
+//   border: solid 1px red;
+// }
 
 /*
   Aosheng specific customizations
 */
-.top {
-  height: 150px;
+
+.body {
+  margin: 0;
+  padding: 0;
 }
 
-.postPreview {
-  height: 285px;
-  margin-bottom: 15px;
-  padding-top: 45px;
-  padding-left: 45px;
-}
+.header {
+  background-color: yellow;
 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  
+  .links {
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline;
+      padding-right: 8px;
+    }
+  }
+}
 
 .sideBar {
-  height: 600px;
-  position: fixed;
-  top: 150px;
-  right: 0;
+  background-color: purple;
+}
+
+.content {
+  background-color: green;
+}
+
+.post {
+  background-color: red;
+}
+
+
+.top {
+  height: 100px;
+}
+
+.content {
+  height: 190px;
+  margin-bottom: 10px;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.navBar {
+  display: block;
+  padding: 0;
+}
+
+.sideBar {
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .sideBar {
+    display: block;
+    height: 400px;
+    width: 170px;
+    position: fixed;
+    top: 150px;
+    right: 120px;
+  }
+
+  .navBar {
+    display: none;
+  }
 }
 
 .fixedName {
@@ -54,7 +111,7 @@
 
   position: absolute;
   left: 0;
-  top: 300px;
+  top: 200px;
 
   ul {
     margin: 0;
@@ -70,7 +127,7 @@
 }
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "aktiv-grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;

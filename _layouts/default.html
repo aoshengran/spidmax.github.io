@@ -5,12 +5,62 @@
 
   <body>
 
-    <div class="container-fluid">
+    <div class="body">
 
-      <div class="row top"></div>
+      <!-- mobile only -->
+      <div class="header">
+        <span class="name">Aosheng Ran</span>
+
+        <div class="links">
+          <ul>
+            <li>
+              <a href="#">Works</a>
+            </li>
+            <li>
+              <a href="#">Articles</a>
+            </li>
+            <li>
+              <a href="#">Thoughts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- non mobile only -->
+      <div class="sideBar">
+        hi
+      </div>
+
+      <div class="content">
+          {{ content }}
+      </div>
+
+    </div>
+  
+  </body>
+</html>
+
+
+
+
+      <div class="top">
+
+        <!-- navbar (mobile only) -->
+        <div class="container navBar">
+            Aosheng Ran
+    
+            Links
+            Links
+            Links
+    
+            Logo
+        </div>
+
+      </div>
 
       <!-- fixed sidebar -->
       <div class="sideBar">
+
           <p class="fixedName">
               Aosheng Ran
             </p>
@@ -33,10 +83,8 @@
             <img class="fixedLogoImage" src="{{ "/assets/images/logo.png" }}">
       </div>
 
-      <div class="row content">
-        <div class="col-md-6 col-md-offset-2">
+      <div class="content">
           {{ content }}
-        </div>
       </div>
 
   </body>
