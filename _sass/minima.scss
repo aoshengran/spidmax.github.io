@@ -63,7 +63,10 @@
   padding: 0;
 
   .post {
-    padding: 16px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
     height: 200px;
     overflow: hidden;
 
@@ -73,7 +76,7 @@
     }
 
     .excerpt {
-      font-weight: 300;
+      padding-top: 4px;
     }
   }
 }
