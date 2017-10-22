@@ -5,8 +5,8 @@ layout: default
 {{ content }}
 
 {% for post in site.posts %}
-  <div class="post">
-      <h1> {{ post.title }} </h1>
-      <p> {{ post.excerpt }} </p>
+  <div class="post" style="background: linear-gradient(to right, #{{post.background-color1}},#{{post.background-color2}}); color: #{{post.font-color}}">
+      <h1 class="title"> {{ post.title }} </h1>
+      <p class="excerpt"> {{ post.excerpt }} </p>
   </div>
 {% endfor %}

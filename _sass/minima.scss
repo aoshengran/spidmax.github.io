@@ -16,7 +16,7 @@
 .header {
 
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 16px;
   padding-left: 16px;
   
   .name {
@@ -59,15 +59,17 @@
 }
 
 .content {
-  background-color: green;
   margin: 0;
   padding: 0;
 
   .post {
-    background-color: red;
     padding: 16px;
     height: 200px;
     overflow: hidden;
+
+    .title {
+      font-size: 24px;
+    }
   }
 }
 
