@@ -8,20 +8,26 @@
 /*
   Aosheng specific customizations
 */
-
 .body {
   margin: 0;
   padding: 0;
 }
 
 .header {
-  background-color: yellow;
 
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 16px;
   
+  .name {
+    font-size: .75em;
+    font-weight: 500;
+    color: #262626;
+  }
+
   .links {
+
+    font-size: .75em;
 
     ul {
       list-style: none;
@@ -33,40 +39,36 @@
       display: inline;
       padding-right: 8px;
     }
+
+    a {
+      color: rgba(15, 15, 15, 0.5);
+      transition: color 0.5s linear;
+    }
+
+    a:hover {
+      color: #262626;
+      text-decoration: none;
+      transition: color 0.5s linear;
+    }
   }
 }
 
 .sideBar {
   background-color: purple;
+  display: none;
 }
 
 .content {
   background-color: green;
-}
-
-.post {
-  background-color: red;
-}
-
-
-.top {
-  height: 100px;
-}
-
-.content {
-  height: 190px;
-  margin-bottom: 10px;
-  padding-top: 24px;
-  padding-left: 24px;
-}
-
-.navBar {
-  display: block;
+  margin: 0;
   padding: 0;
-}
 
-.sideBar {
-  display: none;
+  .post {
+    background-color: red;
+    padding: 16px;
+    height: 200px;
+    overflow: hidden;
+  }
 }
 
 @media (min-width:1024px) {

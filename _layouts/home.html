@@ -2,17 +2,11 @@
 layout: default
 ---
 
-<div class="home">
-  
-  {{ content }}
+{{ content }}
 
-  {% for post in site.posts %}
-    <div class="postPreview">
-        <h1> {{ post.title }} </h1>
-        <p> {{ post.excerpt }} </p>
-    </div>
-  {% endfor %}
-
-
-
-</div>
+{% for post in site.posts %}
+  <div class="post">
+      <h1> {{ post.title }} </h1>
+      <p> {{ post.excerpt }} </p>
+  </div>
+{% endfor %}
