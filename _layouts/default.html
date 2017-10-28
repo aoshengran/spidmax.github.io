@@ -9,28 +9,40 @@
 
       <!-- mobile only -->
       <div class="header">
-        <span class="name">Aosheng Ran</span>
+        <div class="header-left">
+            <div class="links">
+                <ul>
+                  <li>
+                    <a class="name" href="#">Aosheng Ran</a>
+                  </li>
+                  <li>
+                    <a href="#">about + contact</a>
+                  </li>
+                  <li>
+                    <span class="beta">beta</span>
+                  </li>
+                </ul>
+              </div>
+        </div>
 
-        <div class="links">
-          <ul>
-            <li>
-              <a href="#">Works</a>
-            </li>
-            <li>
-              <a href="#">Articles</a>
-            </li>
-            <li>
-              <a href="#">Thoughts</a>
-            </li>
-          </ul>
+        <div class="header-right">
+            <div class="links">
+                <ul>
+                  <li>
+                    <a href="#">work</a>
+                  </li>
+                  <li>
+                    <a href="#">articles</a>
+                  </li>
+                  <li>
+                    <a href="#">thoughts</a>
+                  </li>
+                </ul>
+              </div>
         </div>
       </div>
       
       <!-- non mobile only -->
-      <div class="sideBar">
-        hi
-      </div>
-
       <div class="content">
           {{ content }}
       </div>
@@ -39,32 +51,6 @@
   
   </body>
 </html>
-
-
-      <!-- fixed sidebar -->
-      <div class="sideBar">
-
-          <p class="fixedName">
-              Aosheng Ran
-            </p>
-            <div class="fixedLinks">
-              <ul>
-                  <li>
-                      <a href="#">Works</a>
-                  </li>
-                  <li>
-                      <a href="#">Articles</a>
-                  </li>
-                  <li>
-                      <a href="#">Thoughts</a>
-                  </li>
-              </ul>
-            </div>
-            <p class="fixedBetaText">
-              Beta
-            </p>
-            <img class="fixedLogoImage" src="{{ "/assets/images/logo.png" }}">
-      </div>
 
   </body>
 

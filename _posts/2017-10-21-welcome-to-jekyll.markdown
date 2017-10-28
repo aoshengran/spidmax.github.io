@@ -3,9 +3,7 @@ layout: post
 title:  "First Post"
 date:   2017-10-21 12:10:33 -0700
 categories: jekyll update
-background-color1: F2F2F2
-background-color2: F8E6FF
-font-color: 242026
+featured-image: /assets/images/kiosk-fi.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

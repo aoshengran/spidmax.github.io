@@ -4,20 +4,31 @@ layout: default
 
 {{ content }}
 
+<div class="quote">
+  Ah, good taste, what a dreadful thing!
+  <br />
+  Taste is the enemy of creativity.
+  <br />
+  <div class="quote-attribution">
+      &mdash; Pablo Picasso
+  </div>
+</div>
+
 {% for post in site.posts %}
 
-  {% if post.featured-image %}
-    <div class="post" style="background: url({{ post.featured-image}}) no-repeat center; background-size: cover;">
-
-  {% elsif post.font-color%}
-    <div class="post" style="background: linear-gradient(to right, #{{post.background-color1}},#{{post.background-color2}}); color: #{{post.font-color}}">
-
-  {% else %}
-    <div class="post">
-
-  {% endif %}
-  
-      <span class="title"> {{ post.title }} </span>
-      <div class="excerpt"> {{ post.excerpt }} </div>
+  <div class="featured-image">
+    <img src="{{ post.featured-image }}">
   </div>
+
+  <div class="post">
+
+    <div class="post-date">
+
+    </div>
+
+    <div class="post-excerpt">
+
+    </div>
+  </div>
+
 {% endfor %}

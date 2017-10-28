@@ -11,23 +11,31 @@
 .body {
   margin: 0;
   padding: 0;
+
+  // TODO: make this change depending on the screen size with JS
+  //background: linear-gradient(to bottom, #ebebeb, #fdfdfd);
 }
 
 .header {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 110px;
 
-  padding-top: 12px;
-  padding-bottom: 16px;
-  padding-left: 16px;
-  
-  .name {
-    font-size: .75em;
-    font-weight: 500;
-    color: #262626;
+  .header-left {
+    height: 60px;
+    width: 50%;
+    float: left;
+  }
+
+  .header-right {
+    height: 60px;
+    width: 50%;
+    float: right;
   }
 
   .links {
-
-    font-size: .75em;
 
     ul {
       list-style: none;
@@ -36,12 +44,11 @@
     }
 
     li {
-      display: inline;
-      padding-right: 8px;
+      height: 20px;
     }
 
     a {
-      color: rgba(15, 15, 15, 0.5);
+      color: rgb(15, 15, 15);
       transition: color 0.5s linear;
     }
 
@@ -50,17 +57,41 @@
       text-decoration: none;
       transition: color 0.5s linear;
     }
+
+    .name {
+      font-weight: bold;
+    }
   }
+
+  .beta {
+    color: rgba(15, 15, 15, 0.5);
+  }
+
 }
 
-.sideBar {
-  background-color: purple;
-  display: none;
+.quote {
+
+  font-size: 2em;
+  line-height: 35px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  .quote-attribution {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(15, 15, 15, 0.5);
+    padding-bottom: 40px;
+  }
 }
 
 .content {
   margin: 0;
   padding: 0;
+
+  .featured-image{
+    width: 100%;
+  }
 
   .post {
     padding-top: 12px;
@@ -69,7 +100,7 @@
     padding-bottom: 12px;
     height: 200px;
     overflow: hidden;
-
+    
     .title {
       font-size: 1.5em;
       font-weight: 600;
@@ -140,7 +171,7 @@
 // Define defaults for each variable.
 
 $base-font-family: "aktiv-grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16px !default;
+$base-font-size:   14px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
