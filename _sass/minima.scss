@@ -16,6 +16,17 @@
   //background: linear-gradient(to bottom, #ebebeb, #fdfdfd);
 }
 
+.captionFont {
+  color: rgba(15, 15, 15, 0.5);
+  letter-spacing: 0.1px;
+}
+
+.h2Font {
+  font-size: 2em;
+  color: rgb(15, 15, 15);
+  font-weight: 500;
+}
+
 .header {
   padding-top: 26px;
   padding-bottom: 26px;
@@ -94,22 +105,26 @@
   }
 
   .post {
-    padding-top: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 12px;
-    height: 200px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 240px;
     overflow: hidden;
-    
-    .title {
-      font-size: 1.5em;
-      font-weight: 600;
+
+    .post-date {
+      height: 20px;
+      margin-bottom: 5px;
     }
 
-    .excerpt {
-      padding-top: 4px;
+    .post-title {
+      margin-bottom: 5px;
     }
-  }
+
+    .post-excerpt {
+      margin-bottom: 5px;
+      line-height: 20px;
+      letter-spacing: 0.1px;
+    }
 }
 
 @media (min-width:1024px) {
