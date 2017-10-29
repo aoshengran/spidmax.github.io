@@ -1,6 +1,7 @@
 .captionFont {
   color: rgba(15, 15, 15, 0.5);
   letter-spacing: 0.1px;
+  line-height: 20px;
 }
 
 .header {
@@ -86,6 +87,7 @@
     font-size: 14px;
     font-weight: 500;
     color: rgba(15, 15, 15, 0.5);
+    letter-spacing: 0.1px;
     padding-bottom: 40px;
   }
 }
@@ -111,17 +113,22 @@
 
     h2 {
       font-size: 1.28em;
+      line-height: 30px;
+      letter-spacing: 0.1px;
       margin-top: 40px;
     }
 
     h3 {
       font-size: 1em;
+      line-height: 20px;
+      letter-spacing: 0.1px;
       margin-top: 20px;
       font-weight: 600;
     }
 
     .post-date {
       height: 20px;
+      letter-spacing: 0.1px;
       margin-bottom: 10px;
     }
 
@@ -129,6 +136,7 @@
       margin-bottom: 10px;
       font-size: 2em;
       color: #262626;
+      line-height: 35px;
       font-weight: 500;
     }
 
@@ -153,11 +161,14 @@
 
       h2 {
         font-size: 2em;
+        line-height: 35px;
         margin-top: 100px;
       }
 
       h3 {
         font-size: 1.28em;
+        line-height: 30px;
+        letter-spacing: 0.1px;
         margin-top: 50px;
         font-weight: 600;
       }
@@ -166,11 +177,14 @@
         margin-bottom: 20px;
         font-size: 4em;
         color: #262626;
+        line-height: 70px;
         font-weight: 500;
       }
 
       p.post-body {
         font-size: 1.28em;
+        line-height: 30px;
+        letter-spacing: 0.15px;
       }
     }
 
@@ -190,6 +204,7 @@
         margin-bottom: 20px;
         font-size: 2em;
         color: #262626;
+        line-height: 35px;
         font-weight: 500;
       }
 
@@ -218,14 +233,15 @@
     }
 
     .workPost {
-      padding-left: 25%;
+      padding-left: calc(25% + 40px);
       padding-right: 9%;
 
       .post-date {
         position: absolute;
         margin-left: 0;
+        letter-spacing: 0.1px;
         left: 42px;
-        top: 335px;
+        top: 332px;
       }
 
       .post-title {
@@ -235,10 +251,14 @@
         padding-bottom: 20px;
         margin-bottom: 0;
         font-size: 4em;
+        line-height: 70px;
       }
 
       .post-body {
         width: 87.5%;
+        font-size: 1.28em;
+        letter-spacing: 0.15px;
+        line-height: 30px;
       }
     }
   }
@@ -252,3 +272,9 @@
   }
 }
 
+.workContent {
+  @media (min-width: 1280px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

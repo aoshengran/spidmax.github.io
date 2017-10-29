@@ -7,7 +7,7 @@ featured-image: /assets/images/kiosk-fi.png
 ---
 A concept kiosk that finds a matching scent to add onto your letter and send as a gift. From an ongoing school project that practices design process comprehensively from research, prototype, test, iteration, to branding and visualization. 
 
-<img class="generic clearfix" alt="pick a scent mockup" src="/assets/images/pickaScent.png">
+<img class="generic" alt="pick a scent mockup" src="/assets/images/pickaScent.png">
 
 ## Objectives
 Design a embedded system of a kiosk that sits in public places. The customer will be able to select gift from an appropriate information architecture, complete the transaction and receive a physical gift. 
@@ -15,7 +15,25 @@ Design a embedded system of a kiosk that sits in public places. The customer wil
 ## Ideation + User Scenarios
 In the beginning, I was looking for an unexpected and different gifting experience on kiosk than usual. My idea dramatically iterated from sending souvenir card at airport, to browsing fragrance in store, to adding scent to letter. 
 
-*Souvenir card kiosk: storyboard, concept testing, and notes.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce1.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce1.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce1.3.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce1.4.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Souvenir card kiosk: storyboard, concept testing, and notes.
+    </div>
+</div>
+
 *Fragrance kiosk: ideas, storyboard, concept testing, and notes.(carousel)*
 
 In each phase, I stayed closed emotionally to the potential audiences, listening to their stories, their gifting experiences, and their expectations. I learned how to engage with customers and received a lot of valuable feedback that greatly helped me shape a focused, simple, and meaningful idea as basis. 
@@ -41,9 +59,18 @@ It allows people to be subjective by offering a variety of approachable moods to
 I sketched several screens of critical experience and imported them into digital workspace after I felt comfortable to work on top of them. I built it in Sketch and InVision and got ready for rapid iteration. 
 
 *Sketches.(carousel)*
-*Wireframes.*
 
-I collected peer feedbacks to iterate and learned how to expand it into a solid and testable prototype with adequate breadth and depth. 
+<div class="fullwidth">
+    <div class="fullwidthImage">
+        <img alt="the first version of wireframes" src="/assets/images/wireframesver1.jpg">
+    </div>
+    <div class="fullwidthClear"></div>
+    <div class="fullwidthCaption captionFont">
+        Souvenir card kiosk: storyboard, concept testing, and notes.
+    </div>
+</div>
+
+I collected peer feedback to iterate and learned how to expand it into a solid and testable prototype with adequate breadth and depth. 
 
 *Peer feedbacks.*
 

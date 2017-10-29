@@ -2,13 +2,104 @@
     max-width: calc(100% + 40px);
     margin-left: -20px;
     margin-right: -20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     @media (min-width: 1024px) {
         max-width: 100%;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     @media (min-width: 1280px) {
         max-width: 116%;
+    }
+}
+
+.fullwidth {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .fullwidthImage {
+        img {
+            max-width: calc(100% + 40px);
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .fullwidthCaption {
+        margin-top: 10px;
+    }
+    
+    @media (min-width: 1024px) {
+
+        .fullwidthImage {
+            img {
+                max-width: calc(100% + 80px);
+                margin-left: -40px;
+                margin-right: -40px;
+            }
+        }
+        
+        .fullwidthCaption {
+            margin-top: 20px;
+        }
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    @media (min-width: 1280px) {
+        .fullwidthImage {
+            img {
+                max-width: calc(172% + 80px);
+                left: 0;
+                margin-left: calc(-46% - 40px);
+                // margin-right: 0px;
+            }
+        }
+    }
+
+    .fullwidthClear {
+        clear: both;
+    }
+}
+
+.thumbnails {
+    
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .thumbnailImage {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        float: left;
+        
+        img {
+            height: 160px;
+            width: 160px;
+            object-fit: cover;
+        }
+    }
+
+    .thumbnailClear {
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+    .thumbnails {
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        .thumbnailImage {
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
     }
 }
