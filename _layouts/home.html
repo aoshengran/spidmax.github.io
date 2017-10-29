@@ -7,7 +7,7 @@ layout: default
 {% for post in site.posts %}
 
   <div class="featured-image">
-    <img src="{{ post.featured-image }}">
+    <a href="{{ post.url }}"><img src="{{ post.featured-image }}"></a>
   </div>
 
   <div class="post">
@@ -16,8 +16,8 @@ layout: default
       {{ post.date | date: '%b %d, %Y'}}
     </div>
 
-    <div class="post-title h2Font">
-      {{ post.title }}
+    <div class="post-title">
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
     </div>
 
     <div class="post-excerpt">

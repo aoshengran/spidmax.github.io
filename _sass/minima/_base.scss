@@ -85,31 +85,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
-
+h2 {
+  font-size: 2em;
+  color: rgb(15, 15, 15);
+  font-weight: 500;
+}
 
 /**
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: rgb(15, 15, 15);
+  transition: opacity 0.5s linear;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
+  // &:visited {
+  //   color: darken($brand-color, 15%);
+  // }
 
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
-
-  .social-media-list &:hover {
+  &:hover, 
+  &:focus {
+    color: #262626;
     text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
   }
+
 }
 
 
