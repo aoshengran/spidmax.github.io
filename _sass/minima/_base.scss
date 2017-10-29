@@ -112,6 +112,21 @@ a {
 
 }
 
+a.moreOpacity {
+
+    color: rgb(15, 15, 15);
+    transition: opacity 0.5s linear;
+  
+    &:hover, 
+    &:focus {
+      color: #262626;
+      text-decoration: none;
+      opacity: 0.8;
+      transition: opacity 0.5s linear;
+    }
+  
+}
+
 
 /**
  * Blockquotes
