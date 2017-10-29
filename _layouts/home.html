@@ -4,16 +4,6 @@ layout: default
 
 {{ content }}
 
-<div class="quote">
-  Ah, good taste, what a dreadful thing!
-  <br />
-  Taste is the enemy of creativity.
-  <br />
-  <div class="quote-attribution">
-      &mdash; Pablo Picasso
-  </div>
-</div>
-
 {% for post in site.posts %}
 
   <div class="featured-image">
@@ -23,7 +13,7 @@ layout: default
   <div class="post">
 
     <div class="post-date captionFont">
-      {{ post.date }}
+      {{ post.date | date: '%b %d, %Y'}}
     </div>
 
     <div class="post-title h2Font">
