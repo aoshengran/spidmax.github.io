@@ -107,6 +107,18 @@
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
+    //font-size: 0.64em;
+
+    h2 {
+      font-size: 1.28em;
+      margin-top: 40px;
+    }
+
+    h3 {
+      font-size: 1em;
+      margin-top: 20px;
+      font-weight: 600;
+    }
 
     .post-date {
       height: 20px;
@@ -115,6 +127,9 @@
 
     .post-title {
       margin-bottom: 10px;
+      font-size: 2em;
+      color: #262626;
+      font-weight: 500;
     }
 
     .post-excerpt {
@@ -135,7 +150,31 @@
       padding-top: 55px;
       padding-left: 40px;
       padding-right: 40px;
+
+      h2 {
+        font-size: 2em;
+        margin-top: 100px;
+      }
+
+      h3 {
+        font-size: 1.28em;
+        margin-top: 50px;
+        font-weight: 600;
+      }
+
+      .post-title {
+        margin-bottom: 20px;
+        font-size: 4em;
+        color: #262626;
+        font-weight: 500;
+      }
+
+      p.post-body {
+        font-size: 1.28em;
+      }
     }
+
+
   }
 
   @media (min-width: 1280px) {
@@ -145,6 +184,15 @@
     .post {
       padding-left: 0;
       padding-right: 0;
+
+      .post-title {
+        margin-top: -5px;
+        margin-bottom: 20px;
+        font-size: 2em;
+        color: #262626;
+        font-weight: 500;
+      }
+
     }
     
     .featured-image {
@@ -176,8 +224,8 @@
       .post-date {
         position: absolute;
         margin-left: 0;
-        left: 40px;
-        top: 315px;
+        left: 42px;
+        top: 335px;
       }
 
       .post-title {
@@ -185,10 +233,12 @@
         padding-right: 0;
         float: none;
         padding-bottom: 20px;
+        margin-bottom: 0;
+        font-size: 4em;
       }
 
       .post-body {
-        width: 58%;
+        width: 87.5%;
       }
     }
   }
