@@ -1,0 +1,14 @@
+.generic {
+    max-width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
+
+    @media (min-width: 1024px) {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    @media (min-width: 1280px) {
+        max-width: 116%;
+    }
+}

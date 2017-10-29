@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="body">
+
+      <!-- mobile only -->
+      <div class="header workHeader">
+        <div class="header-left">
+            <div class="links">
+                <ul>
+                  <li>
+                    <a class="name" href="/">Aosheng Ran</a>
+                  </li>
+                  <li>
+                    <a href="#">about + contact</a>
+                  </li>
+                  <li>
+                    <span class="beta">beta</span>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="content">
+          {{ content }}
+      </div>
+
+    </div>
+  
+  </body>
+</html>
