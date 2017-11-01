@@ -162,6 +162,7 @@
         font-size: 2em;
         line-height: 35px;
         margin-top: 100px;
+        margin-bottom: 20px;
       }
 
       h3 {
@@ -172,7 +173,7 @@
         font-weight: 600;
       }
 
-      .post-title {
+      post-title {
         margin-bottom: 20px;
         font-size: 4em;
         color: #262626;
@@ -275,5 +276,15 @@
   @media (min-width: 1280px) {
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+.workTitle {
+  @media (min-width: 1024px) {
+        margin-bottom: 20px;
+        font-size: 4em;
+        color: #262626;
+        line-height: 70px;
+        font-weight: 500;
   }
 }
