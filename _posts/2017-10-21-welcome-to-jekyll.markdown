@@ -34,31 +34,103 @@ In the beginning, I was looking for an unexpected and different gifting experien
     </div>
 </div>
 
-*Fragrance kiosk: ideas, storyboard, concept testing, and notes.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce2.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce2.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/sce2.3.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Fragrance kiosk: ideas, storyboard, concept testing, and notes.
+    </div>
+</div>
 
 In each phase, I stayed closed emotionally to the potential audiences, listening to their stories, their gifting experiences, and their expectations. I learned how to engage with customers and received a lot of valuable feedback that greatly helped me shape a focused, simple, and meaningful idea as basis. 
 
-*Final user & motivation.*
+<div class="fullwidth">
+    <div class="fullwidthImage">
+        <img alt="the first version of wireframes" src="/assets/images/sce3.jpg">
+    </div>
+    <div class="fullwidthClear"></div>
+    <div class="fullwidthCaption captionFont">
+        Final user & motivation.
+    </div>
+</div>
 
 ## Task Flows
 I separated the ideal user experience into three steps: uploading letters, discovering scents, and delivery. I also did research on the categorization of the fragrance library. The result provided me a solid basis on understanding the information architecture. 
 
-*Notes on three steps and filters.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf1.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf1.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf1.3.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Notes on three steps and filters.
+    </div>
+</div>
 
 Initially, discovering scents is designed similarly to the typical online shopping experiences. Although it offers shortcuts to the best scent in the customer’s mind, I realized that it’s not the best solution to a product with such subtlety and subjectivity. 
 
-*A draft of task flows and early attempts.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf2.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf2.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf2.3.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        A draft of task flows and early attempts.
+    </div>
+</div>
 
 Thus, I decided to introduce a **content-based recommendation system** to build a ritualistic experience. 
 
 It allows people to be subjective by offering a variety of approachable moods to choose from. Through asking people to try possible matching scents, the system learns about people’s preferences and curate the results based on people’s feedback. The system constructed a personal and intimate experience that brings joys and surprises to the exploration of scents. 
 
-*Notes on iterations.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf3.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf3.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/tf3.3.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Notes on iterations.
+    </div>
+</div>
 
 ## Wireframes + Prototype ver.1
 I sketched several screens of critical experience and imported them into digital workspace after I felt comfortable to work on top of them. I built it in Sketch and InVision and got ready for rapid iteration. 
 
-*Sketches.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/wf1.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Sketches.
+    </div>
+</div>
 
 <div class="fullwidth">
     <div class="fullwidthImage">
@@ -72,10 +144,28 @@ I sketched several screens of critical experience and imported them into digital
 
 I collected peer feedback to iterate and learned how to expand it into a solid and testable prototype with adequate breadth and depth. 
 
-*Peer feedbacks.*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/wf3peer.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Peer feeedback.
+    </div>
+</div>
+
 
 ## Wireframes + Prototype ver.2
-*Wireframes.*
+
+<div class="fullwidth">
+    <div class="fullwidthImage">
+        <img alt="the second version of wireframes" src="/assets/images/wireframesver2.jpg">
+    </div>
+    <div class="fullwidthClear"></div>
+    <div class="fullwidthCaption captionFont">
+        Wireframes.
+    </div>
+</div>
 
 Try: https://invis.io/25DSFKIXW
 
@@ -86,15 +176,91 @@ Before looking for participants, I drafted a sheet of test criteria with scenari
 
 During the weekend, I tested the prototype with 6 people, 3 friends and 3 strangers I met in public. I asked them if they wanted to help me with an iterating design project, introducing the scenario, observed their reactions, and listened to their thoughts. 
 
-*Real-time notes. Parts of the notes are taken by ~Nathalia Kasman~. Kudos to her!(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes3.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes4.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes5.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes6.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes7.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes8.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Real-time notes. Parts of the notes are taken by ~Nathalia Kasman~. Kudos to her!
+    </div>
+</div>
 
 In this stage, I learned how to interact with strangers, collaborate with partners, hold a quick interview, make notes when listening, and organize notes quickly. The concrete and informative feedback I received from a variety of participants (especially in age) greatly helped me to find design problems and iterate in the next step. 
 
-*Organized notes.(carousel)*
-*Findings & setbacks.*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.3.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.4.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.5.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.6.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Real-time notes. Parts of the notes are taken by ~Nathalia Kasman~. Kudos to her!
+    </div>
+</div>
+
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/wfv2notes9.7.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Findings & setbacks.
+    </div>
+</div>
 
 ## Wireframes + Prototype ver.3
-*Wireframes.*
+
+<div class="fullwidth">
+    <div class="fullwidthImage">
+        <img alt="the third version of wireframes" src="/assets/images/wireframesver3.1.jpg">
+    </div>
+    <div class="fullwidthImage">
+        <img alt="the third version of wireframes" src="/assets/images/wireframesver3.2.jpg">
+    </div>
+    <div class="fullwidthImage">
+        <img alt="the third version of wireframes" src="/assets/images/wireframesver3.3.jpg">
+    </div>
+    <div class="fullwidthClear"></div>
+    <div class="fullwidthCaption captionFont">
+        Wireframes.
+    </div>
+</div>
 
 Try: https://invis.io/PGDYIPZ95
 
@@ -110,48 +276,110 @@ In the refreshed wireframes, I incorporated three approaches to achieve the clar
 
 - **A tab structure that reveals itself** as people go through three steps. They are able to go back to any specific point at any time before the purchase. 
 
-*Tab structure.*
+- **A global option button** that allows people to exit at any time before the purchase. 
+
+<img class="generic" src="/assets/images/rebuild1.jpg">
 
 - **A variety of ways to go back** inside each tab to help people navigate when they change their minds. 
 
-*Back navigation.*
-
-- **A global option button** that allows people to exit at any time before the purchase. 
-
-*Option button.*
+<img class="generic" src="/assets/images/rebuild2.jpg">
 
 ### 5 Important Iterations from Feedback
 - **An introduction page** that adjusts people’s expectations. It clarifies the use of the kiosk to avoid confusion.
 
-*Introduction.*
+<img class="generic" src="/assets/images/iteration1.jpg">
 
 - **Two categories of feelings**. Moods are abstract, wide, and emotional. They’re for everyone. Scent types are specific, focus, and narrow. They’re for semi-experts and experts. The categorization makes it easier for people to find the right words to describe their feelings. 
 
-*Categories of feelings.*
+<img class="generic" src="/assets/images/iteration2.jpg">
 
 - **New visual hierarchy to explain the feelings of scents**: the suggested tags from the library that allow people to curate their feelings: “add it if you like the sensual aspect of it.” The side-by-side visual hierarchy and similar visual elements clearly represent the information relationship. 
 
-*Feelings of scents.*
+<img class="generic" src="/assets/images/iteration3.jpg">
 
 - **Editorial writing** that are natural, personal, concise, but without confusion.
 
-*Editorial writing.*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/iteration4.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/iteration4.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/iteration4.3.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/iteration4.4.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Editorial writing.
+    </div>
+</div>
 
 - **Detailed instructions of web upload function**. A new step-by-step specific instruction. 
 
-*Web upload page.*
+<img class="generic" src="/assets/images/iteration5.jpg">
 
 ## Physical Prototype
 I built a low-fidelity physical prototype with foam core and cardboard.
 
 The process helped me learned how the software and hardware work together to deliver a smooth and united experience. 
 
-*Sketches.(carousel)*
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch3.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch4.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch5.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch6.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch7.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprotsketch8.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Sketches.
+    </div>
+</div>
 
 I carefully considered the input/output location and how software provided signifiers. 
 
-*Physical prototype.*
-*Details & signifiers in software.(carousel)*
+<img class="generic" src="/assets/images/physicalprot1.jpg">
+
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprot2.1.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprot2.2.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprot2.3.jpg">
+    </div>
+    <div class="thumbnailImage">
+        <img src="/assets/images/physicalprot2.4.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+    <div class="thumbnailCaption captionFont">
+        Details & signifiers in software.
+    </div>
+</div>
 
 ## Applying Brand 
 To work with the assigned brand Hallmark, I did competitor audit and researched existing brand guides to ensure that the visual perspective of product fits in the current brand ecosystem. 
