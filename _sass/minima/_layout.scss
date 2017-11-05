@@ -288,3 +288,16 @@
         font-weight: 500;
   }
 }
+
+.pageNavigation {
+
+  .older {
+    float: right;
+  }
+
+  .newer {
+    float: left;
+  }
+
+  height: 200px;
+}
