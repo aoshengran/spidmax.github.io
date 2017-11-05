@@ -1,9 +1,58 @@
 ---
-layout: page
-title: About
+layout: post
+title: About Me
 permalink: /about/
 ---
 
+<style>
+    a {
+        text-decoration: underline;
+    }
+</style>
+
+Hello, I’m Aosheng Ran. You can call me Asher. I’m a sophomore student in California College of the Arts. I major in interaction design. 
+
+<br/>
+
+I believe that the creative design doesn’t come from a good taste, but from continuous communication and empathetic thinking. I take every project as an opportunity to listen, think, collaborate, create, and learn. 
+
+<br/>
+
+I live in Bay area for most of the year. Every once in a while I come back to my hometown, Nanchong, a third-tier city next to Chengdu. The photo below is me with my hometown. It’s nice and cozy. Not much air pollution (well for the most of the time at least). A plethora of DELICIOUS Sichuan food (which I miss so much right now). 
+
+<br/>
+
+This website is currently in Alpha. It is written in CSS and built with Jekyll and Bootstrap, and the help & love from [Lev](https://levlaz.org) :) 
+
+## Contact me
+I’m looking for internship opportunities recently. But feel free to ask me questions or chat. 
+I always prefer talking face-to-face so grab a coffee with me if you live in San Francisco :)
+
+[Resume >](#) <br />
+[Behance >](https://www.behance.net/spidmax4123) <br />
+[LinkedIn >](https://www.linkedin.com/in/aoshengran/) <br />
+<a href="mailto:spidmax@gmail.com">Email ></a>
+
+## Favorites
+- Alternative — post-rock, electronic, dream pop, synth pop, etc.
+- With a little bit of mainstream music. (Guilty pleasure!) Jolin Tsai is my all-time favorite since the childhood.
+- Hard sci-fi and dystopian fictions.
+
+## 2017 Fall/Winter Collection
+“About Time” by Sabrina Claudio
+“MASSEDUCTION” by St. Vincent
+“Visions of a Life” by Wolf Alice
+“Everything Now“ by Arcade Fire
+“Boys” by Charli XCX
+“Music For People In Trouble” by Susanne Sundfør
+“Sacred Hearts Club” by Foster the People
+“Lust for Life” by Lana Del Rey
+“Planetarium” by Sufjan Stevens
+“Something To Tell You” by HAIM
+“Everybody Knows“ by Kimbra
+“After Laughter” by Paramore
+
+<!--
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
@@ -16,3 +65,4 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+-->
