@@ -5,7 +5,7 @@ date:   2017-08-11 12:10:33 -0700
 categories: work
 featured-image: /assets/images/dualBrochure/dualBrochure-fi.png
 ---
-A Chinese book that introduces the concept of bisexuality, pansexuality, and gender pluralism, aiming to eliminate the prejudice by the public and gay community in mainland China. 
+A Chinese book that introduces the concept of bisexuality, pansexuality, and gender pluralism, aiming to eliminate the prejudice from the public and gay community in mainland China. 
 
 <br/>
 <br/>

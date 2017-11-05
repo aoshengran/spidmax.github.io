@@ -5,7 +5,9 @@ date:   2017-11-04 12:10:33 -0700
 categories: work
 featured-image: /assets/images/kioskPt1/kioskPt1-fi.png
 ---
-A concept kiosk that finds a matching scent to add onto your letter and send as a gift. From an ongoing school project that practices design process comprehensively from research, prototype, test, iteration, to branding and visualization. 
+A concept kiosk that finds a matching scent to add onto your letter and send as a gift. 
+
+From an ongoing school project that practices design process comprehensively from research, prototype, test, and iteration, to branding and visualization. 
 
 <br/>
 <br/>
