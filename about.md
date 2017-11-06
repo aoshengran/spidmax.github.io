@@ -10,6 +10,15 @@ permalink: /about/
     }
 </style>
 
+<br/>
+
+<div class="thumbnails">
+    <div class="thumbnailImage">
+        <img src="/assets/images/avatar.jpg">
+    </div>
+    <div class="thumbnailClear"></div>
+</div>
+
 Hello, I’m Aosheng Ran. You can call me Asher. I’m a sophomore student in California College of the Arts. I major in interaction design. 
 
 <br/>
