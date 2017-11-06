@@ -28,7 +28,7 @@ This website is currently in Alpha. It is written in CSS and built with Jekyll a
 I’m looking for internship opportunities recently. But feel free to ask me questions or chat. 
 I always prefer talking face-to-face so grab a coffee with me if you live in San Francisco :)
 
-[Resume >](#) <br />
+[Resume >](/assets/resume.pdf) <br />
 [Behance >](https://www.behance.net/spidmax4123) <br />
 [LinkedIn >](https://www.linkedin.com/in/aoshengran/) <br />
 <a href="mailto:spidmax@gmail.com">Email ></a>
