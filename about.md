@@ -27,7 +27,7 @@ I believe that the creative design doesn’t come from a good taste, but from co
 
 <br/>
 
-I live in Bay area for most of the year. Every once in a while I come back to my hometown, Nanchong, a third-tier city next to Chengdu. The photo below is me with my hometown. It’s nice and cozy. Not much air pollution (well for the most of the time at least). A plethora of DELICIOUS Sichuan food (which I miss so much right now). 
+I live in Bay area for most of the year. Every once in a while I come back to my hometown, Nanchong, a third-tier city next to Chengdu. Nice and cozy, not much air pollution (well for the most of the time at least), a plethora of DELICIOUS Sichuan food (which I miss so much right now). 
 
 <br/>
 
